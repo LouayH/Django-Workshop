@@ -71,3 +71,7 @@
     # Return Products that not meet price__gte=900
     >>> Product.objects.exclude(price__gte=900)
 </details>
+
+## Lesson 04
+### Create a New Super User
+    python manage.py createsuperuser
